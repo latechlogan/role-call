@@ -1,0 +1,1194 @@
+[
+  {
+    "element": "a",
+    "withConditions": "with href",
+    "implicitRole": "link",
+    "allowedRoles": "Any role (though link is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "a",
+    "withConditions": "without href",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "abbr",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "address",
+    "withConditions": "",
+    "implicitRole": "group",
+    "allowedRoles": "Any role (though group is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "area",
+    "withConditions": "with href",
+    "implicitRole": "link",
+    "allowedRoles": "No role other than link (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the link role",
+    "notes": ""
+  },
+  {
+    "element": "area",
+    "withConditions": "without href",
+    "implicitRole": "generic",
+    "allowedRoles": "button or link (generic is also allowed, but SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "article",
+    "withConditions": "",
+    "implicitRole": "article",
+    "allowedRoles": "application, document, feed, main, none, presentation, region (article is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "aside",
+    "withConditions": "",
+    "implicitRole": "complementary",
+    "allowedRoles": "feed, none, note, presentation, region, search (complementary is also allowed, but NOT RECOMMENDED). DPub Roles: doc-dedication, doc-example, doc-footnote, doc-glossary, doc-pullquote, doc-tip",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "audio",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "application",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the application role",
+    "notes": ""
+  },
+  {
+    "element": "autonomous custom element",
+    "withConditions": "",
+    "implicitRole": "Role exposed from author defined ElementInternals. Otherwise role=generic",
+    "allowedRoles": "If role defined by ElementInternals, no role. Otherwise, any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as the generic role, or if exposed as another role which prohibits naming. Otherwise, global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "b",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "base",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "bdi",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "bdo",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "blockquote",
+    "withConditions": "",
+    "implicitRole": "blockquote",
+    "allowedRoles": "Any role (though blockquote is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "body",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "No role other than generic (which SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes allowed for the generic role, with the exception that authors MUST NOT specify aria-hidden=true on the body element",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "br",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "none or presentation",
+    "ariaAttributes": "Authors MAY specify the aria-hidden attribute on the br element. Otherwise, no other allowed aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "button",
+    "withConditions": "",
+    "implicitRole": "button",
+    "allowedRoles": "checkbox, combobox, gridcell, link, menuitem, menuitemcheckbox, menuitemradio, option, radio, separator, slider, switch, tab, treeitem (button is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "If the button is the first child of a select element, the element is inert and has No role or aria-* attributes"
+  },
+  {
+    "element": "canvas",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "caption",
+    "withConditions": "",
+    "implicitRole": "caption",
+    "allowedRoles": "No role other than caption (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "cite",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "code",
+    "withConditions": "",
+    "implicitRole": "code",
+    "allowedRoles": "Any role (though code is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "col",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "colgroup",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "data",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "datalist",
+    "withConditions": "",
+    "implicitRole": "listbox",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "dd",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the definition role",
+    "notes": ""
+  },
+  {
+    "element": "del",
+    "withConditions": "",
+    "implicitRole": "deletion",
+    "allowedRoles": "Any role (though deletion is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "details",
+    "withConditions": "",
+    "implicitRole": "group",
+    "allowedRoles": "No role other than group (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the group role",
+    "notes": ""
+  },
+  {
+    "element": "dfn",
+    "withConditions": "",
+    "implicitRole": "term",
+    "allowedRoles": "Any role (though term is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "dialog",
+    "withConditions": "",
+    "implicitRole": "dialog",
+    "allowedRoles": "alertdialog (dialog is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the dialog role",
+    "notes": ""
+  },
+  {
+    "element": "div",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used). If a direct child of a dl element, only presentation or none role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "dl",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "group, list, none, presentation",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "dt",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "listitem",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "em",
+    "withConditions": "",
+    "implicitRole": "emphasis",
+    "allowedRoles": "Any role (though emphasis is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "embed",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "application, document, img, image, none, presentation",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "fieldset",
+    "withConditions": "",
+    "implicitRole": "group",
+    "allowedRoles": "none, presentation, radiogroup (group is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "figcaption",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "group, none, presentation",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "figure",
+    "withConditions": "",
+    "implicitRole": "figure",
+    "allowedRoles": "If the figure has a valid figcaption descendant: No role other than figure (which is NOT RECOMMENDED). DPub Role: doc-example. Otherwise, if the figure has no figcaption descendant: Any role (though figure is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "footer",
+    "withConditions": "If not a descendant of article, aside, main, nav or section element, or an element with role=article, complementary, main, navigation or region",
+    "implicitRole": "contentinfo",
+    "allowedRoles": "group, presentation, none. DPub Role: doc-footnote (contentinfo is also allowed if conditions are met, but NOT RECOMMENDED. Otherwise, generic is also allowed, but SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as generic. Otherwise, global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "footer",
+    "withConditions": "Otherwise (if descendant of article, aside, main, nav or section)",
+    "implicitRole": "generic",
+    "allowedRoles": "group, presentation, none. DPub Role: doc-footnote (contentinfo is also allowed if conditions are met, but NOT RECOMMENDED. Otherwise, generic is also allowed, but SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as generic. Otherwise, global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "form",
+    "withConditions": "",
+    "implicitRole": "form",
+    "allowedRoles": "none, presentation, search (form is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "A form is not exposed as a landmark region unless it has been provided an accessible name"
+  },
+  {
+    "element": "form-associated custom element",
+    "withConditions": "",
+    "implicitRole": "Role exposed from author defined ElementInternals. Otherwise role=generic",
+    "allowedRoles": "If role defined by ElementInternals, no role. Otherwise, form-related roles: button, checkbox, combobox, listbox, progressbar, group, radio, radiogroup, searchbox, slider, spinbutton, switch, textbox (generic is also allowed, but SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as the generic role. Otherwise, global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "h1, h2, h3, h4, h5, h6",
+    "withConditions": "",
+    "implicitRole": "heading, aria-level = the number in the element's tag name",
+    "allowedRoles": "none, presentation, tab. DPub Role: doc-subtitle (heading is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "head",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "header",
+    "withConditions": "If not a descendant of article, aside, main, nav or section element, or an element with role=article, complementary, main, navigation or region",
+    "implicitRole": "banner",
+    "allowedRoles": "group, none, presentation (banner is also allowed if conditions are met, but NOT RECOMMENDED. Otherwise, generic is also allowed, but SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as generic. Otherwise, global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "header",
+    "withConditions": "Otherwise (if descendant of article, aside, main, nav or section)",
+    "implicitRole": "generic",
+    "allowedRoles": "group, none, presentation (banner is also allowed if conditions are met, but NOT RECOMMENDED. Otherwise, generic is also allowed, but SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as generic. Otherwise, global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "hgroup",
+    "withConditions": "",
+    "implicitRole": "group",
+    "allowedRoles": "Any role (though group is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "hr",
+    "withConditions": "",
+    "implicitRole": "separator",
+    "allowedRoles": "none or presentation. DPub Role: doc-pagebreak (separator is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the separator role",
+    "notes": ""
+  },
+  {
+    "element": "html",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "No role other than document or generic (which are NOT RECOMMENDED)",
+    "ariaAttributes": "No aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "i",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "iframe",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "application, document, img, image, none, presentation",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "img",
+    "withConditions": "with non-empty alt or an accessible name",
+    "implicitRole": "img or image",
+    "allowedRoles": "button, checkbox, link, math, menuitem, menuitemcheckbox, menuitemradio, meter, option, progressbar, radio, scrollbar, separator, slider, switch, tab, treeitem. DPub Role: doc-cover (img or image is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "img",
+    "withConditions": "with empty alt=\"\" and lacks any other img naming methods",
+    "implicitRole": "none or presentation",
+    "allowedRoles": "No role other than the none or presentation roles (which are NOT RECOMMENDED)",
+    "ariaAttributes": "No aria-* attributes except aria-hidden=\"true\"",
+    "notes": ""
+  },
+  {
+    "element": "img",
+    "withConditions": "lacks an alt attribute and lacks any other img naming methods",
+    "implicitRole": "img or image",
+    "allowedRoles": "No role other than the none or presentation roles (img or image is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "No aria-* attributes except aria-hidden=\"true\"",
+    "notes": ""
+  },
+  {
+    "element": "input type=button",
+    "withConditions": "",
+    "implicitRole": "button",
+    "allowedRoles": "checkbox, combobox, gridcell, link, menuitem, menuitemcheckbox, menuitemradio, option, radio, separator, slider, switch, tab, treeitem (button is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "input type=checkbox",
+    "withConditions": "",
+    "implicitRole": "checkbox",
+    "allowedRoles": "menuitemcheckbox, option, switch, button if used with aria-pressed (checkbox is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Authors MUST NOT use the aria-checked attribute on input type=checkbox elements. Otherwise, any global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "The HTML checked attribute can be used instead of the aria-checked attribute"
+  },
+  {
+    "element": "input type=color",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and aria-disabled attribute",
+    "notes": ""
+  },
+  {
+    "element": "input type=date",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=datetime-local",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=email",
+    "withConditions": "with no list attribute",
+    "implicitRole": "textbox",
+    "allowedRoles": "No role other than textbox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=file",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes, aria-disabled, aria-invalid and aria-required attributes",
+    "notes": ""
+  },
+  {
+    "element": "input type=hidden",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "input type=image",
+    "withConditions": "",
+    "implicitRole": "button",
+    "allowedRoles": "The following roles are allowed, but are NOT RECOMMENDED: button, checkbox, gridcell, link, menuitem, menuitemcheckbox, menuitemradio, option, radio, separator, slider, switch, tab, treeitem",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "If possible, authors SHOULD consider using a different HTML element which allows the specified role, such as the button element"
+  },
+  {
+    "element": "input type=month",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=number",
+    "withConditions": "",
+    "implicitRole": "spinbutton",
+    "allowedRoles": "No role other than spinbutton (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the spinbutton role",
+    "notes": ""
+  },
+  {
+    "element": "input type=password",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=radio",
+    "withConditions": "",
+    "implicitRole": "radio",
+    "allowedRoles": "menuitemradio (radio is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Authors MUST NOT use the aria-checked attribute on input type=radio elements. Otherwise, any global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "The HTML checked attribute can be used instead of the aria-checked attribute"
+  },
+  {
+    "element": "input type=range",
+    "withConditions": "",
+    "implicitRole": "slider",
+    "allowedRoles": "No role other than slider (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-valuemax or aria-valuemin on input type=range. Otherwise, any global aria-* attributes and any other aria-* attributes applicable to the slider role",
+    "notes": ""
+  },
+  {
+    "element": "input type=reset",
+    "withConditions": "",
+    "implicitRole": "button",
+    "allowedRoles": "The following roles are allowed, but are NOT RECOMMENDED: button, checkbox, combobox, gridcell, link, menuitem, menuitemcheckbox, menuitemradio, option, radio, separator, slider, switch, tab, treeitem",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "If possible, authors SHOULD consider using a different HTML element which allows the specified role, such as the button element"
+  },
+  {
+    "element": "input type=search",
+    "withConditions": "with no list attribute",
+    "implicitRole": "searchbox",
+    "allowedRoles": "No role other than searchbox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the searchbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=submit",
+    "withConditions": "",
+    "implicitRole": "button",
+    "allowedRoles": "The following roles are allowed, but are NOT RECOMMENDED: button, checkbox, combobox, gridcell, link, menuitem, menuitemcheckbox, menuitemradio, option, radio, separator, slider, switch, tab, treeitem",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "If possible, authors SHOULD consider using a different HTML element which allows the specified role, such as the button element"
+  },
+  {
+    "element": "input type=tel",
+    "withConditions": "with no list attribute",
+    "implicitRole": "textbox",
+    "allowedRoles": "No role other than textbox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=text",
+    "withConditions": "with no type or list attribute",
+    "implicitRole": "textbox",
+    "allowedRoles": "combobox, searchbox, spinbutton (textbox is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "input type=text, search, tel, url, email",
+    "withConditions": "with a list attribute",
+    "implicitRole": "combobox",
+    "allowedRoles": "No role other than combobox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-haspopup attribute on the indicated inputs with a list attribute. Otherwise, any global aria-* attributes and any other aria-* attributes applicable to the combobox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=time",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=url",
+    "withConditions": "with no list attribute",
+    "implicitRole": "textbox",
+    "allowedRoles": "No role other than textbox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "input type=week",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "ins",
+    "withConditions": "",
+    "implicitRole": "insertion",
+    "allowedRoles": "Any role (though insertion is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "kbd",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "label",
+    "withConditions": "associated with a labelable element",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Naming Prohibited if exposed as the generic role, or if exposed as another role which prohibits naming. Otherwise, global aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "label",
+    "withConditions": "not associated with an element",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Naming Prohibited if exposed as the generic role, or if exposed as another role which prohibits naming. Otherwise, global aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "legend",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Global aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "li",
+    "withConditions": "child of ul, ol, or menu",
+    "implicitRole": "listitem",
+    "allowedRoles": "No role other than listitem (which is NOT RECOMMENDED) if the parent list element has an implicit or explicit list role. Otherwise, any role if the parent list element does not expose an implicit or explicit list role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Authors SHOULD NOT use the deprecated DPub Roles: doc-biblioentry, doc-endnote"
+  },
+  {
+    "element": "li",
+    "withConditions": "not a child of a list element",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role if the parent list element does not expose an implicit or explicit list role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "link",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "main",
+    "withConditions": "",
+    "implicitRole": "main",
+    "allowedRoles": "No role other than main (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the main role",
+    "notes": ""
+  },
+  {
+    "element": "map",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "mark",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "math",
+    "withConditions": "",
+    "implicitRole": "math",
+    "allowedRoles": "No role other than math (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the math role",
+    "notes": ""
+  },
+  {
+    "element": "menu",
+    "withConditions": "",
+    "implicitRole": "list",
+    "allowedRoles": "group, listbox, menu, menubar, none, presentation, radiogroup, tablist, toolbar, tree (list is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Authors SHOULD NOT use deprecated directory role"
+  },
+  {
+    "element": "meta",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "meter",
+    "withConditions": "",
+    "implicitRole": "meter",
+    "allowedRoles": "No role other than meter (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-valuemax or aria-valuemin on meter elements. Otherwise, any global aria-* attributes and any other aria-* attributes applicable to the meter role",
+    "notes": ""
+  },
+  {
+    "element": "nav",
+    "withConditions": "",
+    "implicitRole": "navigation",
+    "allowedRoles": "menu, menubar, none, presentation, tablist. DPub Roles: doc-index, doc-pagelist, doc-toc (navigation is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "noscript",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "object",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "application, document, img, image",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "ol",
+    "withConditions": "",
+    "implicitRole": "list",
+    "allowedRoles": "group, listbox, menu, menubar, none, presentation, radiogroup, tablist, toolbar, tree (list is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Authors SHOULD NOT use deprecated directory role"
+  },
+  {
+    "element": "optgroup",
+    "withConditions": "",
+    "implicitRole": "group",
+    "allowedRoles": "No role other than group (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the group role",
+    "notes": ""
+  },
+  {
+    "element": "option",
+    "withConditions": "in a datalist",
+    "implicitRole": "option",
+    "allowedRoles": "No role other than option (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-selected attribute on the option element. Global aria-* attributes and any other aria-* attributes applicable to the option role",
+    "notes": ""
+  },
+  {
+    "element": "output",
+    "withConditions": "",
+    "implicitRole": "status",
+    "allowedRoles": "Any role (though status is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "p",
+    "withConditions": "",
+    "implicitRole": "paragraph",
+    "allowedRoles": "Any role (though paragraph is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "param",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "picture",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role",
+    "ariaAttributes": "Authors MAY specify the aria-hidden attribute on the picture element. Otherwise, no other allowed aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "pre",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "progress",
+    "withConditions": "",
+    "implicitRole": "progressbar",
+    "allowedRoles": "No role other than progressbar (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-valuemax attribute on progress elements. Otherwise, any global aria-* attributes and any other aria-* attributes applicable to the progressbar role",
+    "notes": ""
+  },
+  {
+    "element": "q",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "rp",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "rt",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "ruby",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "s",
+    "withConditions": "",
+    "implicitRole": "deletion",
+    "allowedRoles": "Any role (though deletion is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "samp",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "script",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "search",
+    "withConditions": "",
+    "implicitRole": "search",
+    "allowedRoles": "form, group, none, presentation, region (search is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "section",
+    "withConditions": "with an accessible name",
+    "implicitRole": "region",
+    "allowedRoles": "alert, alertdialog, application, banner, complementary, contentinfo, dialog, document, feed, group, log, main, marquee, navigation, none, note, presentation, search, status, tabpanel. DPub Roles: doc-abstract, doc-acknowledgments, doc-afterword, doc-appendix, doc-bibliography, doc-chapter, doc-colophon, doc-conclusion, doc-credit, doc-credits, doc-dedication, doc-endnotes, doc-epigraph, doc-epilogue, doc-errata, doc-example, doc-foreword, doc-glossary, doc-index, doc-introduction, doc-notice, doc-pagelist, doc-part, doc-preface, doc-prologue, doc-pullquote, doc-qna, doc-toc (region is also allowed, but NOT RECOMMENDED. generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "section",
+    "withConditions": "without an accessible name",
+    "implicitRole": "generic",
+    "allowedRoles": "alert, alertdialog, application, banner, complementary, contentinfo, dialog, document, feed, group, log, main, marquee, navigation, none, note, presentation, search, status, tabpanel. DPub Roles: doc-abstract, doc-acknowledgments, doc-afterword, doc-appendix, doc-bibliography, doc-chapter, doc-colophon, doc-conclusion, doc-credit, doc-credits, doc-dedication, doc-endnotes, doc-epigraph, doc-epilogue, doc-errata, doc-example, doc-foreword, doc-glossary, doc-index, doc-introduction, doc-notice, doc-pagelist, doc-part, doc-preface, doc-prologue, doc-pullquote, doc-qna, doc-toc (region is also allowed, but NOT RECOMMENDED. generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "select",
+    "withConditions": "with no multiple attribute and no size attribute > 1",
+    "implicitRole": "combobox",
+    "allowedRoles": "menu (combobox is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-multiselectable attribute on a select element. Otherwise, any global aria-* attributes and any other aria-* attributes applicable to the combobox or menu role",
+    "notes": ""
+  },
+  {
+    "element": "select",
+    "withConditions": "with a multiple attribute or size attribute > 1",
+    "implicitRole": "listbox",
+    "allowedRoles": "No role other than listbox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Authors SHOULD NOT use the aria-multiselectable attribute on a select element. Otherwise, any global aria-* attributes and any other aria-* attributes applicable to the listbox role",
+    "notes": ""
+  },
+  {
+    "element": "selectedcontent",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "If used as a valid descendant of a select element: no role or aria-* attributes. Otherwise, any role if the element is used outside of its intended context as a child of the button part of a customizable select element (though generic is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "slot",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "small",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "source",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "span",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "strong",
+    "withConditions": "",
+    "implicitRole": "strong",
+    "allowedRoles": "Any role (though strong is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "style",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "sub",
+    "withConditions": "",
+    "implicitRole": "subscript",
+    "allowedRoles": "Any role (though subscript is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "summary",
+    "withConditions": "",
+    "implicitRole": "button",
+    "allowedRoles": "No role if the summary element is a descendant of a details element",
+    "ariaAttributes": "Global aria-* attributes, aria-disabled, and aria-haspopup attributes. Otherwise, authors MAY specify any role, and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "sup",
+    "withConditions": "",
+    "implicitRole": "superscript",
+    "allowedRoles": "Any role (though superscript is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "svg",
+    "withConditions": "",
+    "implicitRole": "graphics-document",
+    "allowedRoles": "Any role (though graphics-document is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "table",
+    "withConditions": "",
+    "implicitRole": "table",
+    "allowedRoles": "Any role (though table is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "tbody",
+    "withConditions": "",
+    "implicitRole": "rowgroup",
+    "allowedRoles": "Any role (though rowgroup is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "td",
+    "withConditions": "ancestor table exposed as role=table",
+    "implicitRole": "cell",
+    "allowedRoles": "If the ancestor table element has role=table, grid, or treegrid, no role other than cell (if table) or gridcell (if grid/treegrid), which are NOT RECOMMENDED. Otherwise, if the ancestor table element is not exposed as a role=table, grid or treegrid, any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "td",
+    "withConditions": "ancestor table exposed as role=grid or treegrid",
+    "implicitRole": "gridcell",
+    "allowedRoles": "If the ancestor table element has role=table, grid, or treegrid, no role other than cell (if table) or gridcell (if grid/treegrid), which are NOT RECOMMENDED. Otherwise, if the ancestor table element is not exposed as a role=table, grid or treegrid, any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "td",
+    "withConditions": "ancestor table not exposed as role=table, grid or treegrid",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "template",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "textarea",
+    "withConditions": "",
+    "implicitRole": "textbox",
+    "allowedRoles": "No role other than textbox (which is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the textbox role",
+    "notes": ""
+  },
+  {
+    "element": "tfoot",
+    "withConditions": "",
+    "implicitRole": "rowgroup",
+    "allowedRoles": "Any role (though rowgroup is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "th",
+    "withConditions": "ancestor table exposed as role=table",
+    "implicitRole": "columnheader, rowheader or cell",
+    "allowedRoles": "If the ancestor table element has role=table, grid, or treegrid, no role other than columnheader, rowheader, cell (if table) or gridcell (if grid/treegrid), which are NOT RECOMMENDED. Otherwise, if the ancestor table element is not exposed as a role=table, grid or treegrid, any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "th",
+    "withConditions": "ancestor table exposed as role=grid or treegrid",
+    "implicitRole": "columnheader, rowheader or gridcell",
+    "allowedRoles": "If the ancestor table element has role=table, grid, or treegrid, no role other than columnheader, rowheader, cell (if table) or gridcell (if grid/treegrid), which are NOT RECOMMENDED. Otherwise, if the ancestor table element is not exposed as a role=table, grid or treegrid, any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "th",
+    "withConditions": "ancestor table not exposed as role=table, grid or treegrid",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "thead",
+    "withConditions": "",
+    "implicitRole": "rowgroup",
+    "allowedRoles": "Any role (though rowgroup is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "time",
+    "withConditions": "",
+    "implicitRole": "time",
+    "allowedRoles": "Any role (though time is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "title",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "tr",
+    "withConditions": "",
+    "implicitRole": "row",
+    "allowedRoles": "If the ancestor table element has role=table, grid, or treegrid, no role other than row (which is NOT RECOMMENDED); otherwise any role (though row is NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "track",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "No role or aria-* attributes",
+    "ariaAttributes": "No role or aria-* attributes",
+    "notes": ""
+  },
+  {
+    "element": "u",
+    "withConditions": "",
+    "implicitRole": "generic",
+    "allowedRoles": "Any role (though generic SHOULD NOT be used)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Naming Prohibited"
+  },
+  {
+    "element": "ul",
+    "withConditions": "",
+    "implicitRole": "list",
+    "allowedRoles": "group, listbox, menu, menubar, none, presentation, radiogroup, tablist, toolbar, tree (list is also allowed, but NOT RECOMMENDED)",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": "Authors SHOULD NOT use the deprecated directory role"
+  },
+  {
+    "element": "var",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "Any role",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the allowed roles",
+    "notes": ""
+  },
+  {
+    "element": "video",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "application",
+    "ariaAttributes": "Global aria-* attributes and any aria-* attributes applicable to the application role",
+    "notes": ""
+  },
+  {
+    "element": "wbr",
+    "withConditions": "",
+    "implicitRole": "No corresponding role",
+    "allowedRoles": "none or presentation",
+    "ariaAttributes": "Authors MAY specify the aria-hidden attribute on the wbr element. Otherwise, no other allowed aria-* attributes",
+    "notes": ""
+  }
+]

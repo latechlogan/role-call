@@ -1,3 +1,28 @@
 code {
-  background-color: skyblue;
+  font-size: 1rem;
+  color: oklch(44.3% 0.11 240.79);
+  padding: 0rem 0.25rem;
+  background-color: oklch(95.1% 0.026 236.824);
+  border-radius: 0.25rem;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  border-collapse: collapse;
 }

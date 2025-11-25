@@ -2,6 +2,7 @@ import "./App.css";
 import htmlAriaRoles from "./data/html-aria-roles.json";
 import Table from "./components/Table/Table";
 import { useState } from "react";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -9,7 +10,16 @@ function App() {
     item.element.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  return <Table data={filteredData} />;
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  return (
+    <>
+      <SearchBar searchTerm={searchTerm} handleChange={handleChange} />
+      <Table data={filteredData} />
+    </>
+  );
 }
 
 export default App;

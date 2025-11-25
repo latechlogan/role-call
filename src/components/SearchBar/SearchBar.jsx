@@ -1,8 +1,8 @@
 import "./SearchBar.css";
 
-export default function SearchBar({ searchTerm, handleChange }) {
+export default function SearchBar({ searchTerm, handleChange, resultCount }) {
   return (
-    <section>
+    <section className="searchBar">
       <input
         type="text"
         id="tag-search-input"
@@ -10,6 +10,15 @@ export default function SearchBar({ searchTerm, handleChange }) {
         onChange={handleChange}
         placeholder="Search by tag name..."
       />
+      {searchTerm !== "" && formatResultCount(resultCount)}
     </section>
   );
 }
+
+const formatResultCount = (resultCount) => {
+  return resultCount > 1 ? (
+    <p>{resultCount} results</p>
+  ) : (
+    <p>{resultCount} result</p>
+  );
+};

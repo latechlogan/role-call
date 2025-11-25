@@ -3,3 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.searchSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

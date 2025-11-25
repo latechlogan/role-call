@@ -7,7 +7,7 @@ import SearchBar from "./components/SearchBar/SearchBar";
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const filteredData = htmlAriaRoles.filter((item) =>
-    item.element.toLowerCase().includes(searchTerm.toLowerCase())
+    item.element.toLowerCase().startsWith(searchTerm.toLowerCase())
   );
 
   const handleChange = (e) => {

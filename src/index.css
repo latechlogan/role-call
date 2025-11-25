@@ -66,3 +66,14 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* Custom Font */
+
+html {
+  color: oklch(27.4% 0.006 286.033);
+  font-family: "General Sans", sans-serif;
+}
+
+code {
+  font-family: "JetBrains Mono", monospace;
+}
